@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean Twist Bottle</title>
+
+  <style>
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+
+    body{
+      font-family:Arial,sans-serif;
+      background:#f7f7f5;
+      color:#222;
+      line-height:1.6;
+    }
+
+    .hero{
+      background:linear-gradient(to bottom,#eef4f2,#f7f7f5);
+      text-align:center;
+      padding:90px 20px 60px;
+    }
+
+    h1{
+      font-size:3.2rem;
+      font-style:italic;
+      margin-bottom:20px;
+    }
+
+    .subtitle{
+      color:#666;
+      font-size:1.1rem;
+      max-width:700px;
+      margin:0 auto;
+    }
+
+    .main-section{
+      max-width:1200px;
+      margin:auto;
+      padding:40px 20px 70px;
+    }
+
+    .concept-board img{
+      width:100%;
+      border-radius:24px;
+      box-shadow:0 20px 50px rgba(0,0,0,0.12);
+    }
+
+    .presentation-section{
+      text-align:center;
+      padding:10px 20px 80px;
+    }
+
+    .presentation-section p{
+      color:#666;
+      margin-bottom:25px;
+      font-size:1rem;
+    }
+
+    .presentation-button{
+      display:inline-block;
+      padding:16px 34px;
+      background:#587558;
+      color:white;
+      text-decoration:none;
+      border-radius:14px;
+      font-size:1rem;
+      font-weight:500;
+      transition:0.2s;
+      box-shadow:0 10px 25px rgba(88,117,88,0.18);
+    }
+
+    .presentation-button:hover{
+      background:#476247;
+      transform:translateY(-2px);
+    }
+
+    .contact-section{
+      padding:70px 20px;
+      max-width:700px;
+      margin:auto;
+    }
+
+    .contact-section h2{
+      text-align:center;
+      margin-bottom:10px;
+      font-size:2rem;
+    }
+
+    .contact-section p{
+      text-align:center;
+      margin-bottom:30px;
+      color:#666;
+    }
+
+    form{
+      background:white;
+      padding:30px;
+      border-radius:24px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      display:flex;
+      flex-direction:column;
+      gap:15px;
+    }
+
+    input,
+    textarea{
+      padding:14px;
+      border:1px solid #ccc;
+      border-radius:12px;
+      font-size:1rem;
+    }
+
+    textarea{
+      min-height:120px;
+      resize:vertical;
+    }
+
+    button{
+      padding:15px;
+      border:none;
+      border-radius:12px;
+      background:#587558;
+      color:white;
+      font-size:1rem;
+      cursor:pointer;
+      transition:0.2s;
+    }
+
+    button:hover{
+      background:#476247;
+    }
+
+    .privacy-consent{
+      font-size:0.9rem;
+      line-height:1.5;
+      display:flex;
+      align-items:flex-start;
+      gap:10px;
+    }
+
+    .privacy-consent input{
+      margin-top:4px;
+    }
+
+    .privacy-consent a{
+      color:#587558;
+      text-decoration:none;
+    }
+
+    .privacy-consent a:hover{
+      text-decoration:underline;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#666;
+      font-size:0.9rem;
+    }
+
+    footer a{
+      color:#587558;
+      text-decoration:none;
+    }
+
+    footer a:hover{
+      text-decoration:underline;
+    }
+
+    @media (max-width:768px){
+
+      h1{
+        font-size:2.2rem;
+      }
+
+      .subtitle{
+        font-size:1rem;
+      }
+
+      .hero{
+        padding:70px 20px 50px;
+      }
+
+      .contact-section h2{
+        font-size:1.6rem;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+
+    <h1>
+      Finalmente una borraccia davvero facile da pulire
+    </h1>
+
+    <p class="subtitle">
+      Una borraccia progettata per essere pulita davvero,
+      con fondo svitabile per una pulizia semplice,
+      completa e senza compromessi.
+    </p>
+
+  </section>
+
+  <section class="main-section">
+
+    <div class="concept-board">
+      <img src="img1.png"
+           alt="Clean Twist Bottle">
+    </div>
+
+  </section>
+
+  <section class="presentation-section">
+
+    <p>
+      Vuoi approfondire il progetto Clean Twist Bottle?
+    </p>
+
+    <a class="presentation-button"
+       href="https://canva.link/h2s4ojv3ntfzyph"
+       target="_blank">
+
+      Scopri la presentazione completa
+
+    </a>
+
+  </section>
+
+  <section class="contact-section">
+
+    <h2>
+      Ti interessa Clean Twist Bottle?
+    </h2>
+
+    <p>
+      Contattaci per maggiori informazioni.
+    </p>
+
+    <form action="https://formsubmit.co/cleantwistbottle@gmail.com" method="POST">
+
+      <input type="hidden"
+             name="_subject"
+             value="Nuovo contatto Clean Twist Bottle">
+
+      <input type="hidden"
+             name="_captcha"
+             value="true">
+
+      <input type="hidden"
+             name="_next"
+             value="https://avminimaster.github.io/cleantwistbottle/thanks.html">
+
+      <label for="fullname">
+        Nome e cognome
+      </label>
+
+      <input type="text"
+             id="fullname"
+             name="name"
+             placeholder="Il tuo nome e cognome"
+             required>
+
+      <label for="email">
+        Email
+      </label>
+
+      <input type="email"
+             id="email"
+             name="email"
+             placeholder="La tua email"
+             required>
+
+      <label for="message">
+        Messaggio
+      </label>
+
+      <textarea id="message"
+                name="message"
+                placeholder="Scrivici un messaggio..."></textarea>
+
+      <label class="privacy-consent">
+
+        <input type="checkbox"
+               name="privacy_consent"
+               value="accepted"
+               required>
+
+        Ho letto l'
+        <a href="privacy.html" target="_blank">
+          Informativa Privacy
+        </a>
+        e acconsento al trattamento dei miei dati personali.
+
+      </label>
+
+      <button type="submit">
+        Contattaci
+      </button>
+
+    </form>
+
+  </section>
+
+  <footer>
+
+    © 2026 Clean Twist Bottle |
+    <a href="privacy.html" target="_blank">
+      Informativa Privacy
+    </a>
+
+  </footer>
+
+</body>
+</html>
