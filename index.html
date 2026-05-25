@@ -244,69 +244,50 @@
     <p>
       Contattaci per maggiori informazioni.
     </p>
+    
+<form action="https://formspree.io/f/xvzywpdz" method="POST" class="contact-form">
 
-    <form action="https://formsubmit.co/cleantwistbottle@gmail.com" method="POST">
+  <input type="hidden" name="_next" value="https://avminimaster.github.io/cleantwistbottle/">
 
-      <input type="hidden"
-             name="_subject"
-             value="Nuovo contatto Clean Twist Bottle">
+  <input
+    type="text"
+    name="nome"
+    placeholder="Il tuo nome"
+    required
+  >
 
-      <input type="hidden"
-             name="_captcha"
-             value="true">
+  <input
+    type="email"
+    name="email"
+    placeholder="La tua email"
+    required
+  >
 
-      <input type="hidden"
-             name="_next"
-             value="https://avminimaster.github.io/cleantwistbottle/thanks.html">
+  <textarea
+    name="messaggio"
+    placeholder="Scrivici come possiamo aiutarti"
+    rows="5"
+    required
+  ></textarea>
 
-      <label for="fullname">
-        Nome e cognome
-      </label>
+  <label class="privacy-consent">
+    <input
+      type="checkbox"
+      name="Consenso privacy"
+      value="Accettato"
+      required
+    >
+    Ho letto e accetto la
+    <a href="privacy.html" target="_blank">Privacy Policy</a>
+  </label>
 
-      <input type="text"
-             id="fullname"
-             name="name"
-             placeholder="Il tuo nome e cognome"
-             required>
+  <button type="submit">
+    Richiedi informazioni
+  </button>
 
-      <label for="email">
-        Email
-      </label>
+</form>
 
-      <input type="email"
-             id="email"
-             name="email"
-             placeholder="La tua email"
-             required>
 
-      <label for="message">
-        Messaggio
-      </label>
-
-      <textarea id="message"
-                name="message"
-                placeholder="Scrivici un messaggio..."></textarea>
-
-      <label class="privacy-consent">
-
-        <input type="checkbox"
-               name="privacy_consent"
-               value="accepted"
-               required>
-
-        Ho letto l'
-        <a href="privacy.html" target="_blank">
-          Informativa Privacy
-        </a>
-        e acconsento al trattamento dei miei dati personali.
-
-      </label>
-
-      <button type="submit">
-        Contattaci
-      </button>
-
-    </form>
 
   </section>
 
